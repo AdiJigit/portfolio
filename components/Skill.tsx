@@ -3,6 +3,8 @@ import { motion } from 'framer-motion'
 
 type Props = {
   directionLeft?: boolean;
+  img: string;
+  percent: string; 
 }
 
 export default function Skill({ directionLeft, img, percent }: Props) {

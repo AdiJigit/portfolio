@@ -1,4 +1,3 @@
-import Head from 'next/Head';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
 import About from '../components/About';
@@ -6,6 +5,7 @@ import WorkExperience from '../components/WorkExperience';
 import Projects from '../components/Projects';
 import Contact from '../components/Contact';
 import Skills from '../components/Skills';
+import Head from 'next/head';
 
 export default function Home() {
   return (
